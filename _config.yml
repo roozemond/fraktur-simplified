@@ -1,0 +1,69 @@
+title:            Fraktur
+tagline:          A break.
+description:      Collection of thoughts.
+canonical:        http://fraktur.nl
+encoding:         utf-8
+
+# Owner/author information
+owner:
+  name:           LR
+  avatar:         avatar.png
+  bio:            "Tinkerer and thinker"
+#  email:          cole@coletownsend.com
+#  twitter:        twnsndco
+#  github:         coletownsend
+#  instagram:      ctrunsthis
+#  dribbble:       coletownsend
+#  disqus:         balzac
+#  location:       "Buffalo, NY"
+  # Plug in your disqus shortname!
+
+tools:
+  standards:      "HTML, SCSS, Jekyll"
+  software:       "git"
+
+# Open Graph customization
+opengraph:
+  locale:           en_US
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /about
+#  - title: Github
+#    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
+#    external: true
+#  - title: Cole Who?
+#    url: http://coletownsend.com
+#    external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Berlin
+future:      true
+highlighter: rouge
+#markdown:    kramdown
+
+#kramdown:
+#  auto_ids: true
+#  footnote_nr: 1
+#  entity_output: as_char
+#  toc_levels: 1..6
+#  enable_coderay: false
+
+#  coderay:
+#    coderay_line_numbers:
+#    coderay_line_numbers_start: 1
+#    coderay_tab_width: 4
+#    coderay_bold_every: 10
+#    coderay_css: class
+
+sass:
+    style: :compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+include: [".htaccess"]
+#exclude: ["CNAME", "LICENSE", "*.md", "Gem*", "S3*txt", "*.bak", "*.sh", "lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
+exclude: ["CNAME", "LICENSE", "Gem*", "S3*txt", "*.bak", "*.sh", "lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "README", "features.md"]
