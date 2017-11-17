@@ -4,13 +4,11 @@
     <aside class="wrap">
       <ol class="prev-posts">
         <p class="list-title">Some Other Posts</p>
-        {% for post in site.posts %} <!-- for1 -->
-		  {% if post.index == page.previous.previous.index or post.index == page.previous.index or post.index == page.next.next.index or post.index == page.next.index%}
+        {% for post in site.posts | limit:3 %} <!-- for1 -->
             <li>
               <span class="recent-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title | strip_html | strip_newlines | truncate: 30 }} </a></span>
               <span class="date">{{post.date | date: "%b %d, %Y" }}</span>
             </li>
-		  {% endif %}	
         {% endfor %}
       </ol>
 
