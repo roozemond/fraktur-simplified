@@ -2,6 +2,7 @@ title:            Fraktur
 tagline:          A break.
 description:      Collection of thoughts.
 canonical:        http://roozemond.github.io
+baseurl:          /fraktur-simplified
 encoding:         utf-8
 
 # Owner/author information
